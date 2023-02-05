@@ -1,8 +1,12 @@
 # cypress-gha-example
 
+* para seguir el tutorial del video que sigue
+
 📺 Watch the video [Testing Using Cypress And GitHub Actions: From Zero To Hero](https://youtu.be/IEkRyElQ6VE)
 
 Look at the [todo.cy.js](cypress/e2e/1-getting-started/todo.cy.js), [ci.yml](.github/workflows/ci.yml), and [cypress.config.js](./cypress.config.js)
+
+* funciona bien ... a continuar
 
 ## Small print
 
