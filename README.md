@@ -6,7 +6,7 @@
 
 Look at the [todo.cy.js](cypress/e2e/1-getting-started/todo.cy.js), [ci.yml](.github/workflows/ci.yml), and [cypress.config.js](./cypress.config.js)
 
-* funciona bien ... a continuar
+* funciona bien ... a continuar 
 
 ## Small print
 
