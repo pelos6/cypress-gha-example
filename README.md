@@ -29,3 +29,4 @@ Support: if you find any problems with this module, email / tweet /
 # CAMBIOS
 
 * hago el repositorio privado
+* pero para clonarlo en DGA tengo que volver a hacerlo público
