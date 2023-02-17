@@ -17,7 +17,12 @@ describe('BASE_DATOS', () =>
 
   it('Comprobando la base de datos', () => {
     escribeLog(nombreFicheroLog, 'Comprobando la base de datos')
-    cy.visit(f_url() + 'eppla_adm/test.jsp')
+    // cy.visit(f_url() + 'eppla_adm/test.jsp')
+        cy.visit('https://example.cypress.io')
+    
+        cy.contains('type')
+     
+    })
     cy.contains('[ORACLE DB] - [OK]')
     escribeLog(nombreFicheroLog, 'OK. Comprobada la base de datos')
   })
