@@ -30,3 +30,5 @@ Support: if you find any problems with this module, email / tweet /
 
 * hago el repositorio privado
 * pero para clonarlo en DGA tengo que volver a hacerlo público
+
+* los resultado se ven en [la web de gitHub](https://github.com/pelos6/cypress-gha-example/actions)
