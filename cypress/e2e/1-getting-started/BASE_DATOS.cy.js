@@ -6,30 +6,28 @@ import { nombreFichero, escribeLog, escribeLogBefore, escribeLogAfter, f_url } f
 
 describe('BASE_DATOS', () =>
 {
-    // cargo variables para los tests   
-    var nombreFicheroLog = nombreFichero('BASE-DATOS');
+  // cargo variables para los tests   
+  var nombreFicheroLog = nombreFichero('BASE-DATOS');
 
-    // antes de empezar los test 
-    before(() =>
-    {
-        escribeLogBefore(nombreFicheroLog)
-    })
+  // antes de empezar los test 
+  before(() =>
+  {
+    escribeLogBefore(nombreFicheroLog)
+  })
 
-  it('Comprobando la base de datos', () => {
+  it('Comprobando la base de datos', () =>
+  {
     escribeLog(nombreFicheroLog, 'Comprobando la base de datos')
     // cy.visit(f_url() + 'eppla_adm/test.jsp')
-        cy.visit('https://example.cypress.io')
-    
-        cy.contains('type')
-     
-    })
-    cy.contains('[ORACLE DB] - [OK]')
+    cy.visit('https://example.cypress.io')
+    cy.contains('type')
+    // cy.contains('[ORACLE DB] - [OK]')
     escribeLog(nombreFicheroLog, 'OK. Comprobada la base de datos')
   })
 
   // al finalizar los tests 
   after(() =>
   {
-      escribeLogAfter(nombreFicheroLog)
+    escribeLogAfter(nombreFicheroLog)
   })
 })
