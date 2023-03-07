@@ -1,0 +1,15 @@
+{
+  "entorno": "preaplicaciones-epcnt-adm",
+  "url-geb-local": "http://localhost:8080/geb/",
+  "url-geb-des": "https://desaplicaciones.aragon.es/geb/",
+  "url-geb-pre": "https://preaplicaciones.aragon.es/geb/",
+  "url-geb-pro": "https://aplicaciones.aragon.es/geb/",
+  "url-local": "http://localhost:8080/",
+  "url-des": "https://despaddoc.aragon.es/",
+  "url-pre": "https://prepaddoc.aragon.es/",
+  "url-pro": "https://paddoc.aragon.es/",
+  "version_eppla": "Versión 1.0.20",
+  "version_eppla_local": "Versión 1.0.21",
+  "version_eppla_adm": "Versión 1.0.15",
+  "version_eppla_adm_local": "Versión 1.0.16"
+}
