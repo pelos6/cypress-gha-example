@@ -8,6 +8,10 @@ Look at the [todo.cy.js](cypress/e2e/1-getting-started/todo.cy.js), [ci.yml](.gi
 
 * funciona bien ... a continuar 
 
+```bash
+npx cypress open
+```
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2023
