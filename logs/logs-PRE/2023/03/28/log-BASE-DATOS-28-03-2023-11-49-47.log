@@ -1,0 +1,14 @@
+INICIO del test: BASE_DATOS
+   hora                -> 28-03-2023-11-49-47
+   entorno             -> PRE
+   usuarioDummy        -> undefined
+   usuarioPasswordTest -> undefined
+   usuarioPasswordPro  -> contraseña no definida
+   versión Cypress     -> 12.5.1
+   sistema operativo   -> Arquitectura del OS: x64
+   navegador           -> Navegador: Chrome versión 111.0.5563.111 modo: Headed 
+
+
+Comprobando la base de datos
+FIN del test: BASE_DATOS
+   hora                -> 28-03-2023-11-49-47

@@ -22,9 +22,9 @@ describe('BASE_DATOS', () =>
     // cy.visit('https://example.cypress.io')
     // cy.contains('type')
     // funciona
-    // cy.visit('https://paddoc.aragon.es/eppla_adm/test.jsp')
+     cy.visit('https://paddoc.aragon.es/eppla_adm/test.jsp')
     // no funciona
-    cy.visit('https://188.244.81.142/eppla_adm/test.jsp')
+    //cy.visit('https://188.244.81.142/eppla_adm/test.jsp')
     // cy.visit('https://prepaddoc.aragon.es/eppla_adm/test.jsp')
     cy.contains('[ORACLE DB] - [OK]')
     escribeLog(nombreFicheroLog, 'OK. Comprobada la base de datos')

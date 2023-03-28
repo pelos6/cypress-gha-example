@@ -4,7 +4,8 @@
   "description": "",
  "private":"true", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:usuariosCertificados": "cypress run --spec cypress/e2e/EPCNT_ADM_LOGIN_USUARIOS.cy.js"
   },
   "keywords": [],
   "author": "",
